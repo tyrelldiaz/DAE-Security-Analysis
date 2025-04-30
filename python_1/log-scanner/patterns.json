@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Failed Login Attempt",
+    "field": "event",
+    "match": "login",
+    "sub_field": "status",
+    "sub_match": "failure"
+  },
+  {
+    "name": "Suspicious Quantity",
+    "field": "event",
+    "match": "add_to_cart",
+    "sub_field": "quantity",
+    "sub_match": "> 50"
+  },
+  {
+      "name": "Checkout Error",
+      "field": "event",
+      "match": "checkout",
+      "sub_field": "status",
+      "sub_match": "error"
+  },
+  {
+    "name": "High Number of Views",
+    "field": "event",
+    "match": "view_product",
+    "threshold": 10,
+    "time_window": 60,
+    "group_by": "user_id"
+  }
+]

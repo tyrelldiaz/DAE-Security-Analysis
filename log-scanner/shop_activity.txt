@@ -1,0 +1,17 @@
+Pattern: High Number of Views
+{
+  "timestamp": "2024-07-28 10:05:12",
+  "user_id": "12345",
+  "event": "view_product",
+  "product_id": "67890"
+}
+
+Pattern: Suspicious Quantity
+{
+  "timestamp": "2024-07-28 12:30:22",
+  "user_id": "54321",
+  "event": "add_to_cart",
+  "product_id": "11223",
+  "quantity": 100
+}
+

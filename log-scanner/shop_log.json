@@ -1,0 +1,63 @@
+[
+  {
+    "timestamp": "2024-07-28 10:00:05",
+    "user_id": "12345",
+    "event": "login",
+    "status": "success"
+  },
+  {
+    "timestamp": "2024-07-28 10:05:12",
+    "user_id": "12345",
+    "event": "view_product",
+    "product_id": "67890"
+  },
+  {
+    "timestamp": "2024-07-28 10:15:30",
+    "user_id": "12345",
+    "event": "add_to_cart",
+    "product_id": "67890",
+    "quantity": 2
+  },
+  {
+    "timestamp": "2024-07-28 10:20:45",
+    "user_id": "12345",
+    "event": "checkout",
+    "status": "success",
+    "order_id": "98765"
+  },
+  {
+    "timestamp": "2024-07-28 11:00:00",
+    "user_id": "23456",
+    "event": "login",
+    "status": "failure",
+    "reason": "invalid_password"
+  },
+  {
+    "timestamp": "2024-07-28 11:00:01",
+    "user_id": "23456",
+    "event": "login",
+    "status": "failure",
+    "reason": "invalid_password"
+  },
+    {
+    "timestamp": "2024-07-28 11:00:02",
+    "user_id": "23456",
+    "event": "login",
+    "status": "failure",
+    "reason": "invalid_password"
+  },
+  {
+    "timestamp": "2024-07-28 12:30:22",
+    "user_id": "54321",
+    "event": "add_to_cart",
+    "product_id": "11223",
+    "quantity": 100
+  },
+  {
+    "timestamp": "2024-07-28 13:45:55",
+    "user_id": "65432",
+    "event": "checkout",
+    "status": "error",
+    "error_message": "Payment gateway timeout"
+  }
+]
